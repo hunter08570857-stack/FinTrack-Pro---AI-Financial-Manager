@@ -1,0 +1,5 @@
+{
+  "name": "FinTrack Pro - AI Financial Manager",
+  "description": "A comprehensive personal finance management system with bank accounts, stock portfolio tracking (TWSE/Intl), transaction categorization, and AI-powered financial insights.",
+  "requestFramePermissions": []
+}

@@ -3,12 +3,12 @@ import { getFirestore } from "firebase/firestore";
 
 // TODO: 請在 Firebase Console > Project Settings > General > Your apps 複製設定並貼上
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_PROJECT_ID.appspot.com",
-  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-  appId: "YOUR_APP_ID"
+  apiKey: "AIzaSyDfuiM1BiYetD150AdUcqcvIMGWangueyc",
+  authDomain: "hahahe-4c6e8.firebaseapp.com",
+  projectId: "hahahe-4c6e8",
+  storageBucket: "hahahe-4c6e8.firebasestorage.app",
+  messagingSenderId: "99056306594",
+  appId: "1:99056306594:web:dcac8fc2c329806eb8cafb"
 };
 
 const app = initializeApp(firebaseConfig);

@@ -1,4 +1,4 @@
-import { initializeApp } from "firebase/app";
+import * as firebase from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 
 // TODO: 請在 Firebase Console > Project Settings > General > Your apps 複製設定並貼上
@@ -11,5 +11,5 @@ const firebaseConfig = {
   appId: "1:99056306594:web:dcac8fc2c329806eb8cafb"
 };
 
-const app = initializeApp(firebaseConfig);
+const app = firebase.initializeApp(firebaseConfig);
 export const db = getFirestore(app);

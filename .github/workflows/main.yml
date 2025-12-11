@@ -25,16 +25,15 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "20"
-          cache: 'npm'
+          # cache: 'npm' removed because package-lock.json may not exist initially
 
       - name: Install dependencies
-        # Changed from 'npm ci' to 'npm install' to generate package-lock.json if missing
         run: npm install
 
       - name: Build
         run: npm run build
         env:
-          # 重要：請在 GitHub Repository Settings > Secrets > Actions 中設定 API_KEY
+          # Important: Set API_KEY in GitHub Repo Settings > Secrets > Actions
           API_KEY: ${{ secrets.API_KEY }}
 
       - name: Setup Pages
